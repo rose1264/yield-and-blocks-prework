@@ -1,6 +1,6 @@
 def hello_t(array)
   i = 0
-  while array[i].start_with("T")?
+  while i < array.length
     yield array[i]
     i += 1
   end
